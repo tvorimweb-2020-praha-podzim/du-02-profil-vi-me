@@ -16,4 +16,111 @@ html { box-sizing: border-box; }
 
 body {
     background-color: #bdc3c7;
+    margin-left: 25px;
+    margin-top: 55px
 }
+
+main{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #31363b ;
+    width: 250px;
+    color: #bdc3c7;
+    box-shadow: 0px 5px 5px #1c2227;
+}
+
+.hlavicka{
+    position: relative;
+    width: 250px}
+
+.foto {
+  width:100%;
+}
+ 
+.logo{
+    position:absolute; 
+    bottom:-20px;
+    right: 25px;
+    background-color:#b92e81;
+    border-radius: 50%;
+    box-shadow: 0px 5px 5px #1c2227;
+}
+
+h1, .odkazy a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {font-size: 24px;
+    font-weight: 600;
+    color: white;
+    padding-top: 10px ;
+}
+
+
+.obsah {
+    padding: 0 20px 20px 20px;
+    font-size: 14px}
+
+
+.odkazy {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    }
+
+.odkazy li {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.odkazy a {
+    display: inline-block;
+    text-transform: uppercase;  
+    font-weight: 600;
+    color: #bdc3c7;
+    font-style: bold;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.portfolio {
+    border-top: 1px solid #3f464d ;
+    border-bottom: 1px solid #3f464d ;
+    width: 100%;
+ }
+
+ /* Tlačítka twitter a facebook mají mezi sebou úzkou mezeru (viditelná při najetí myší) a já moc nevím, jak se jí zbavit...  
+ Obecně tahle dvě tlačítka nedosahují až ke kraji (na okraji je vidět tmavá hrana, narozdíl od zadání)... Už fakt nevím :D   */
+
+ .facebook {
+    border-right: 1px solid #3f464d;
+    width: 49%;
+ }
+
+ .twitter {
+    width: 49%;
+    padding-left:0;
+ }
+
+.portfolio a:hover,
+.portfolio a:focus,
+.portfolio a:active {
+    background-color:#e74c3c;
+    color: white;  
+    width: 100%;
+}
+
+.facebook a:hover,
+.facebook a:focus, 
+.facebook a:active {
+    background-color:#3b5998;
+    color: white;
+    width: 100%;  
+}
+
+.twitter a:hover,
+.twitter a:focus,
+.twitted a:active {
+    background-color:#1da1f2;
+    color: white;
+    width: 100%;
+  }
